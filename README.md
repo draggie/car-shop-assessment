@@ -6,22 +6,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Task description
+This project contains example data source in `assets/data.json`.
+This file has simple array data structure.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Example project includes already service which accesses data from the file and displays it in simple way in HTML template.
+Task for developer is to **implement cart functionality** which includes:
+* Adding *add* button in each card cart
+* Adding cart button on toolbar which will display on badge number of added products
+* Creating cart component - as a panel, popup, dialog which will open on cart button click
+* Handling storage of data - when user clicks *add* product count should be updated
+* Adding option in cart to remove products from it
+* Calculating in cart total price
